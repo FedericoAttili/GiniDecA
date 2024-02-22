@@ -270,31 +270,3 @@ giniDec=function(x,z,w=F,m=NULL,n_equalizer='quant',type=7,contrib=F){
 
   return(results)
 }
-"
-## Example usage
-
-# Generating 4 random numbers between 1 and 10
-x = runif(4, 1, 10)
-
-# Creating a vector of group identifiers (1, 2, 1, 2)
-groups = c(rep(c(1:2), 2))
-
-
-# Computing the Gini decomposition
-res1 = giniDec(x, groups, contrib = T)
-
-
-##   Example with different-sized groups and weights
-
-# Generating 5 random numbers between 1 and 10
-x = runif(5, 1, 10)
-
-# Creating a vector of group identifiers (1, 2, 1, 2, 2)
-groups = c(rep(c(1:2), 2), 2)
-
-# Creating a weight vector (1, 2, 1, 2, 2)
-w = c(rep.int(c(1, 2), 2), 2)
-
-# Computing the Gini decomposition with additional parameters
-res2 = giniDec(x, groups, w = w, n_equalizer = 'quant', type = 7, contrib = T)
-
