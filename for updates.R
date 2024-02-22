@@ -7,7 +7,9 @@ library(Rcpp)
 #run when the cpp (and maybe also R?) function is modified
 Rcpp::compileAttributes(getwd())
 
+
 #adjust DESCRIPTION and NAMESPACE to import necessary packages
+devtools::document()
 
 devtools::install_github("FedericoAttili/GiniDecA",force = T)
 

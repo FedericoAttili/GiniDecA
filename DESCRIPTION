@@ -13,3 +13,4 @@ Imports:
   Hmisc,
   dineq
 LinkingTo: Rcpp
+RoxygenNote: 7.2.3
