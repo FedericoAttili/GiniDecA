@@ -4,7 +4,7 @@ setwd(getwd())
 
 library(Rcpp)
 #Rcpp.package.skeleton("GiniDecA")
-sourceCpp('ginicpp.cpp') # Replace with the actual path to your C++ file
+sourceCpp('src/ginicpp.cpp') # Replace with the actual path to your C++ file
 
 
 ########################
