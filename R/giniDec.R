@@ -270,3 +270,4 @@ giniDec=function(x,z,w=F,m=NULL,n_equalizer='quant',type=7,contrib=F){
 
   return(results)
 }
+
