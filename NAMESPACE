@@ -1,5 +1,5 @@
 useDynLib(GiniDecA, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
 importFrom(Hmisc, wtd.quantile)
-importFrom(dineq, wtd.gini)
+importFrom(dineq, gini.wtd)
 exportPattern("^[[:alpha:]]+")
