@@ -1,12 +1,11 @@
 setwd(getwd())
-setwd("C:/Users/Lenovo/Documents/GitHub")
 library(Rcpp)
 
 #run to build the skeleton of the package - but maybe not serve anymore
 #Rcpp.package.skeleton("")
 
 #run when the cpp (and maybe also R?) function is modified
-Rcpp::compileAttributes("C:/Users/Lenovo/Documents/GitHub/GiniDecA")
+Rcpp::compileAttributes(getwd())
 
 #adjust DESCRIPTION and NAMESPACE to import necessary packages
 
