@@ -39,7 +39,7 @@ lcm_pair <- function(a, b) {
 }
 
 # Function to calculate the LCM of a vector of numbers
-lcm <- function(x) {
+lcm_mine <- function(x) {
   # Check if the vector has at least one element
   if(length(x) < 1) {
     stop("Input vector must have at least one element.")
@@ -57,8 +57,8 @@ lcm <- function(x) {
 }
 
 # Example usage
-numbers <- c(3, 7, 8)
-lcm(numbers) # Should return 24, which is the LCM of 4, 6, and 8
+#numbers <- c(3, 7, 8)
+#lcm(numbers) # Should return 24, which is the LCM of 4, 6, and 8
 
 
 group_size_recalib <- function(x, z) {
@@ -87,7 +87,7 @@ group_size_recalib <- function(x, z) {
   }
 
   # Calculate the least common multiple (LCM) of group sizes
-  n <- lcm(n_k)
+  n <- lcm_mine(n_k)
 
   # Calculate the inverse proportion for each group size relative to LCM
   p_k_inv <- n / n_k
