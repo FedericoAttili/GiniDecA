@@ -2,7 +2,7 @@
 
 setwd(getwd())
 
-#library(Rcpp)
+library(Rcpp)
 #Rcpp.package.skeleton("GiniDecA")
 #sourceCpp('https://github.com/FedericoAttili/GiniDecA/src/ginicpp.cpp') # Replace with the actual path to your C++ file
 
