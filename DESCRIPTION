@@ -1,12 +1,11 @@
 Package: GiniDecA
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Decomposing the Gini index as in Attili (2024), Uncovering Complexities in Horizontal Inequality: A Novel Decomposition of the Gini Index, Social Indicators Research
 Version: 1.0
 Date: 2024-02-22
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as
-       one or more full sentences.
+Author: Federico Attili
+Maintainer: Federico Attili <federico.attili2@unibo.it> <federicoattili@libero.it>
+Description: The help page is in progress. Please reach me out at my email address for any doubt and I will be happy to help you. 
 License: GPL (>= 2)
 Imports: 
   Rcpp (>= 1.0.10),
